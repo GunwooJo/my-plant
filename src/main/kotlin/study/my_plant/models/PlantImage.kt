@@ -5,6 +5,6 @@ import java.time.LocalDate
 
 @Document
 class PlantImage (
-    val date: LocalDate,
+    val date: LocalDate = LocalDate.now(),
     val imageUrl: String
 )
