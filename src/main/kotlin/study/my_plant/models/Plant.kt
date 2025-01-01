@@ -8,6 +8,7 @@ import java.time.LocalDate
 class Plant(
     @Id
     val id: String? = null,
+    val userId: String,
     val name: String,
     val memo: String,
     val dateAcquired: LocalDate, //처음 데려온 날짜
