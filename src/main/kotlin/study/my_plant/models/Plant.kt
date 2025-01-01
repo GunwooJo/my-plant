@@ -14,4 +14,4 @@ class Plant(
     val dateAcquired: LocalDate, //처음 데려온 날짜
     val lastWateredDate: LocalDate, //마지막으로 물을 준 날짜
     val images: MutableList<PlantImage> = mutableListOf() // 날짜별 이미지 목록
-)
+): BaseDoc()
